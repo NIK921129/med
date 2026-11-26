@@ -3,8 +3,17 @@
     "name": "MedicineDelivery",
     "slug": "medicine-delivery",
     "version": "1.0.0",
-    "platforms": ["ios", "android", "web"],
-    "web": { "bundler": "metro", "output": "static" },
-    "extra": { "apiUrl": "https://your-api.onrender.com" }
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "extra": {
+      "apiUrl": "https://your-api.onrender.com"
+    }
   }
 }
